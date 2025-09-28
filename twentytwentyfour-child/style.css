@@ -1,0 +1,246 @@
+h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+/* Paragraph styling */
+p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+/*
+ Theme Name:   Twenty Twenty-Four Child 
+ Description:  Child theme for Twenty Twenty-Four
+ Author:       Paul Kenneth Chavez 
+ Template:     twentytwentyfour
+ Version:      1.0.0
+ Text Domain:  twentytwentyfour-child
+*/
+
+
+
+
+/* Global style */
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+
+.outline-btn{
+    padding: 20px 30px;
+    border: 2px solid #F14E24;  
+    background: transparent;
+    text-decoration: none;
+    color: #F14E24;
+    font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 48px;
+    }
+}
+
+/* Custom Header Styles */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    min-height: 90px;
+    max-width: 1650px;
+    margin: 0 auto;
+    margin-bottom: -100px;
+}
+
+#headerimg {
+    display: flex;
+    align-items: center;
+}
+
+#headerimg h1 {
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+
+#headerimg a {
+    color: #111;
+    text-decoration: none;
+}
+
+#headerimg img {
+    width: 323px;
+    height: 29px;
+    object-fit: contain;
+    margin-right: 16px;
+}
+
+#site-navigation {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: transparent;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+}
+
+.main-navigation li {
+    position: relative;
+}
+
+.main-navigation a {
+    color: #111;
+    text-decoration: none;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 0;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+.main-navigation a:hover {
+    color: #F14E24;
+    border-bottom: 1px solid #F14E24;
+    padding-bottom: 4px;
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-ancestor > a {
+    color: #F14E24;
+    border-bottom: 3px solid #F14E24;
+    padding-bottom: 4px;
+}
+
+@media (max-width: 900px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    #site-navigation {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .main-navigation ul {
+        gap: 18px;
+    }
+}
+
+
+
+/* hero section */
+.hero{
+    display: flex;
+    max-width: 1050px;
+    min-height: 1000px;
+    margin-left: 0;    
+    align-items: center;
+    background: #FEEDE9;
+}
+
+
+.hero .column{
+    max-width: 703px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 140px;
+}
+
+
+.hero .container img{
+    position: unset;
+    box-shadow: unset;
+}
+
+.hero img{
+    position: absolute;
+    right: 0;
+    box-shadow: -15px 12px 60px rgba(0, 0, 0, 0.35);
+}
+
+.hero h1,
+.hero p{
+    margin: 0;
+}
+
+
+.hero .outline-btn{
+    margin-top: 20pxl
+}
+
+
+/* image text section */
+
+
+.about-us{
+    max-width: 1647px;
+    margin: auto;
+    padding: 150px;
+   
+}
+
+.about-us .container{
+    display: flex;
+    gap: 195px;
+}
+
+
+.about-us .column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.about-us .icon-box{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.icon-box h3{
+    margin: 0;
+}
+
+
+.about-us a{
+    margin-top: 30px;
+}
+
+
+
+    
